@@ -1,0 +1,10 @@
+{
+  "name": "macro-intelligence-tracker",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "up": "docker compose up --build",
+    "down": "docker compose down",
+    "logs": "docker compose logs -f"
+  }
+}
